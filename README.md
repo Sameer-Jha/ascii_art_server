@@ -8,7 +8,7 @@ eg. `curl picascii.herokuapp.com`
 
 output :
 
-![](/home/sam/main/src/web_pro/ascii_meme_api/ss.png)
+![](ss.png)
 
 > A step further add this to alias : `alias ascii='curl picascii.herokuapp.com`
 >
