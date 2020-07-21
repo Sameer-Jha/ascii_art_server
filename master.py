@@ -16,13 +16,13 @@ def ascii_print():
     ascii_arts_g = ascii_parse.find_all('pre')
     ascii_arts = [art for art in ascii_arts_g]
     try:
-        print(ascii_arts[1].get_text()+"\n")
+        info = 'tag: '+ascii_arts[1].get_text()+"\n"
         ascii_arts.pop(1)
     except IndexError:
         ascii_print()
         return None
     art = choice(ascii_arts)
-    print(art.get_text())
+    return info, art
 
 
     
